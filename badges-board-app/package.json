@@ -2,7 +2,7 @@
   "name": "badges-board-app",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "a Sails application to demonstrate a student badge board",
   "keywords": [],
   "dependencies": {
     "ejs": "2.3.4",
@@ -21,7 +21,8 @@
     "include-all": "~0.1.6",
     "rc": "1.0.1",
     "sails": "~0.12.3",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "sails-mysql": "^0.11.5"
   },
   "scripts": {
     "debug": "node debug app.js",
